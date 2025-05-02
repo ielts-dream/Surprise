@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Papa G! 🎉</title>
+    <style>
+        /* Cute Birthday Styles */
+        :root {
+            --primary: #ff69b4;
+            --secondary: #ffd700;
+            --accent: #87ceeb;
+            --text: #2f4f4f;
+        }
+
+        body {
+            font-family: 'Comic Neue', cursive;
+            background: linear-gradient(45deg, #fff0f5, #fffacd);
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: rgba(255,255,255,0.9);
+            border-radius: 20px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            color: var(--primary);
+            font-size: 3em;
+            text-shadow: 2px 2px 0 var(--secondary);
+            animation: float 3s ease-in-out infinite;
+        }
+
+        .cake {
+            font-size: 100px;
+            margin: 20px;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+
+        .cake:hover {
+            transform: scale(1.2) rotate(10deg);
+        }
+
+        .message {
+            background: linear-gradient(45deg, #fff, #ffe4e1);
+            padding: 20px;
+            border-radius: 15px;
+            margin: 20px;
+            position: relative;
+        }
+
+        .message::after {
+            content: "🎈🎈";
+            position: absolute;
+            bottom: -30px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .photo-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin: 20px;
+        }
+
+        .photo {
+            width: 100%;
+            border-radius: 15px;
+            transition: transform 0.3s;
+        }
+
+        .photo:hover {
+            transform: rotate(3deg) scale(1.05);
+        }
+
+        button {
+            background: var(--primary);
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 25px;
+            font-size: 1.2em;
+            cursor: pointer;
+            margin: 20px;
+            transition: all 0.3s;
+        }
+
+        button:hover {
+            background: var(--secondary);
+            transform: scale(1.1);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+
+        .confetti {
+            position: fixed;
+            width: 10px;
+            height: 10px;
+            background: var(--accent);
+            animation: confettiFall 3s linear infinite;
+        }
+
+        @keyframes confettiFall {
+            0% { transform: translateY(-100vh) rotate(0deg); }
+            100% { transform: translateY(100vh) rotate(360deg); }
+        }
+    </style>
+</head>
+<title>Happy Birthday Papa G! 🎉</title>
+    <style>
+        body {
+            font-family: 'Comic Neue', cursive;
+            background: #fff0f5;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+            overflow-x: hidden;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #ff69b4;
+            font-size: 2.5em;
+            text-shadow: 2px 2px #ffd700;
+            animation: bounce 1s infinite;
+        }
+        .buttons {
+            margin: 30px;
+            position: relative;
+        }
+        .yes-btn, .no-btn {
+            font-size: 1.5em;
+            padding: 15px 30px;
+            margin: 10px;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        .yes-btn {
+            background: #ff69b4;
+            color: white;
+        }
+        .no-btn {
+            background: #87ceeb;
+            color: white;
+            position: absolute;
+        }
+        .message {
+            display: none;
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            margin: 20px;
+            box-shadow: 0 0 10px pink;
+        }
+        @keyframes bounce {
+            0%,100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+        .hearts span {
+            position: fixed;
+            animation: heartFloat 3s linear;
+            font-size: 20px;
+        }
+        @keyframes heartFloat {
+            to { transform: translateY(-100vh) rotate(360deg); }
+        }
+        .konami {
+            color: #ff69b4;
+            margin-top: 20px;
+            display: none;
+            body {
+            font-family: 'Comic Neue', cursive;
+            background: #fff0f5;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+            overflow-x: hidden;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #ff69b4;
+            font-size: 2.5em;
+            text-shadow: 2px 2px #ffd700;
+            animation: bounce 1s infinite;
+        }
+        .buttons {
+            margin: 30px;
+            position: relative;
+        }
+        .yes-btn, .no-btn {
+            font-size: 1.5em;
+            padding: 15px 30px;
+            margin: 10px;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        .yes-btn {
+            background: #ff69b4;
+            color: white;
+        }
+        .no-btn {
+            background: #87ceeb;
+            color: white;
+            position: absolute;
+        }
+        .message {
+            display: none;
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            margin: 20px;
+            box-shadow: 0 0 10px pink;
+        }
+        @keyframes bounce {
+            0%,100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+        .hearts span {
+            position: fixed;
+            animation: heartFloat 3s linear;
+            font-size: 20px;
+        }
+        @keyframes heartFloat {
+            to { transform: translateY(-100vh) rotate(360deg); }
+        }
+        .konami {
+            color: #ff69b4;
+            margin-top: 20px;
+            display: none;
+        }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 style="font-size: 40px;">🎂 Happy Birthday Papa G! 🎈</h1>
+        <p style="font-size: 30px;">🎁Do you 🥳love💖 me🎈?🥳</p>
+        
+        <div class="buttons">
+            <button class="yes-btn" onclick="celebrate()">YES! 🎉</button>
+            <button class="no-btn" onmouseover="moveNo()">NO 🙁</button>
+        </div>
+
+        <div class="message" id="message">
+            <h2>I know u loved mee,i love u tooooooooo🥳</h2>
+            <p>🎁Happy Birthday🎈<br>Enjoy your special day! 💖</p>
+            <div id="hearts"></div>
+        </div>
+
+        <div class="konami" id="konami">Pls click yes i love u papa g 🍰</div>
+    </div>
+
+<body>
+    <div class="container">
+        <h1>Happy Birthday Papa G! 🎂</h1>
+        
+        <div class="cake" onclick="partyTime()">🎂</div>
+        
+        <div class="message">
+            <h2>You're Amazing! 💖</h2>
+            <p>Wishing you a day filled with love, laughter, and all your favorite things! 🥳</p>
+            <p>Thank you for being the wonderful person you are! 🌟</p>
+        </div>
+
+        <div class="photo-grid">
+            <!-- Add your photo URLs here -->
+            <img src="/img1.jpg" class="photo" alt="Happy Moments">
+            <img src="/img2.jpg" class="photo" alt="Fun Times">
+            <img src="/img3.jpg" class="photo" alt="My last birthday">
+            <img src="/img4.jpg" class="photo" alt="Happy Moments">
+            <img src="/img5.jpg" class="photo" alt="Fun Times">
+            <img src="/img6.jpg" class="photo" alt="My last birthday">
+            <img src="/img7.jpg" class="photo" alt="Happy Moments">
+            <img src="/img8.jpg" class="photo" alt="Fun Times">
+            <img src="/img9.jpg" class="photo" alt="My last birthday">
+        </div>
+
+        <button onclick="showSurprise()">Click for Surprise! 🎁</button>
+
+        <div id="countdown"></div>
+    </div>
+
+    <script>
+        function moveNo() {
+            const noBtn = document.querySelector('.no-btn');
+            noBtn.style.left = Math.random() * 200 - 100 + 'px';
+            noBtn.style.top = Math.random() * 200 - 100 + 'px';
+        }
+
+        function celebrate() {
+            document.getElementById('message').style.display = 'block';
+            
+            // Add hearts
+            for(let i=0; i<50; i++) {
+                const heart = document.createElement('span');
+                heart.style.left = Math.random() * 100 + 'vw';
+                heart.style.color = ['#ff69b4','#ff0000','#ff1493'][Math.floor(Math.random()*3)];
+                heart.textContent = '❤️';
+                document.body.appendChild(heart);
+                setTimeout(() => heart.remove(), 3000);
+            }
+            
+            // Play sound
+            const audio = new Audio('https://assets.mixkit.co/active_storage/sfx/2997/2997-preview.mp3');
+            audio.play();
+        }
+
+        // Konami code easter egg
+        let konamiCode = ['ArrowUp','ArrowUp','ArrowDown','ArrowDown','ArrowLeft','ArrowRight','ArrowLeft','ArrowRight','b','a'];
+        let konamiIndex = 0;
+        
+        document.addEventListener('keydown', (e) => {
+            if(e.key === konamiCode[konamiIndex]) {
+                konamiIndex++;
+                if(konamiIndex === konamiCode.length) {
+                    document.getElementById('konami').style.display = 'block';
+                    konamiIndex = 0;
+                }
+            } else {
+                konamiIndex = 0;
+            }
+        });
+        // Birthday magic!
+        function createConfetti() {
+            for(let i = 0; i < 50; i++) {
+                const confetti = document.createElement('div');
+                confetti.className = 'confetti';
+                confetti.style.left = Math.random() * 100 + 'vw';
+                confetti.style.background = `hsl(${Math.random() * 360}, 70%, 60%)`;
+                confetti.style.animationDuration = Math.random() * 3 + 2 + 's';
+                document.body.appendChild(confetti);
+                
+                setTimeout(() => confetti.remove(), 5000);
+            }
+        }
+
+        function partyTime() {
+            createConfetti();
+            const audio = new Audio('https://assets.mixkit.co/active_storage/sfx/2997/2997-preview.mp3');
+            audio.play();
+            document.body.style.background = `linear-gradient(45deg, hsl(${Math.random() * 360}, 70%, 85%), hsl(${Math.random() * 360}, 70%, 85%))`;
+        }
+
+        function showSurprise() {
+            const surprise = document.createElement('div');
+            surprise.innerHTML = `
+                <div style="margin: 20px; padding: 20px; background: #fff; border-radius: 15px;">
+                    <h3>🎉 Special Message! 🎉</h3>
+                    <p>You're the best! Here's to another amazing year! 🥂</p>
+                    <p>We love you so much! 💕</p>
+                </div>
+            `;
+            document.querySelector('.container').appendChild(surprise);
+            createConfetti();
+        }
+
+        // Countdown to next birthday
+        function updateCountdown() {
+            const nextBirthday = new Date(new Date().getFullYear() + 1, 0, 1); // Example date
+            const now = new Date();
+            const diff = nextBirthday - now;
+            
+            const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            
+            document.getElementById('countdown').innerHTML = `
+                <h3>🎂 Until Next Birthday: ${days} days ${hours} hours left! ⏳</h3>
+            `;
+        }
+
+        setInterval(updateCountdown, 1000);
+        updateCountdown();
+    </script>
+</body>
+</html>
